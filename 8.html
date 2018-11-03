@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>odnosniki</title>
+    <style>
+        #zabawa {
+            text-decoration: none;
+            width: 324px;
+            height: 157px;
+            display: block;
+        }
+        #zabawa:link {
+            background-image: url("link.jpg");
+        }
+        #zabawa:hover{
+            background-image: url("hover.jpg");
+        }
+        #zabawa:visited{
+            background-image: url("odwiedzona.jpg");
+        }
+    </style>
+</head>
+<body>
+    <a href="http://wp.pl"><img src="obrazek.jpg" alt="Mapa kwadratow" usemap="#mapa"></a>
+    <map name="mapa">
+<area shape="rect" coords="0,0,78,78" href="http://onet.pl" alt="kwadrat czerwony">
+<area shape="rect" coords="78,78,156,156" href="http://siepomaga.pl" alt="kwadrat zolty">
+    </map>
+<br>
+<a href="http://wsb.pl/gdansk/" id="zabawa"></a>
+    
+</body>
+</html>
