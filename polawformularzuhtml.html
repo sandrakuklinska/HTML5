@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pola w formularzu HTML</title>
+</head>
+
+<body>
+    <form action=""></form>
+    <fieldset>
+        <legend>Dane osobowe</legend>
+        <label for="imie">Imię:</label>
+        <input type="text" name="imie" id="imie"> <br>
+        <label for="nazwisko">Nazwisko:</label>
+        <input type="text" name="nazwisko" id="nazwisko"> <br>
+
+        <label for="K">Kobieta</label>
+        <input type="radio" name="plec" value="kobieta" id="K"> <br>
+        <label for="M">Mężczyzna</label>
+        <input type="radio" name="plec" value="mezczyzna" id="M"> <br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Twoje pytanie</legend>
+        <label for="A">adresat</label>
+        <select name="adresat" id="A">
+            <optgroup label="Dział sprzedazy">
+                <option>Jan Kowalski</option>
+            </optgroup>
+            <optgroup label="Serwis">
+                <option>Anna Nowak</option>
+                <option>Kasia Nowak</option>
+                <option>Basia Nowak</option>
+            </optgroup>
+        </select> <br>
+
+        <textarea name="opinia" cols="40" rows="5"></textarea> <br>
+    </fieldset>
+</body>
+
+</html>
